@@ -32,7 +32,7 @@ const importThreeGeometry = (geometry) => {
 };
 
 const exportThreeGeometry = (geometry, smoothingAngle=40*Math.PI/180) => {
-  if (!(geometry instanceof CSG)) return geometry;
+  if (!(geometry instanceof _CSG)) return geometry;
 
   const threeGeometry = new THREE.BufferGeometry(); // eslint-disable-line no-undef
   const vertices = [];
