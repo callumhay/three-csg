@@ -1,4 +1,4 @@
-import { Vector } from 'math';
+import { Vector } from './math/index';
 
 // # class Vertex
 // Represents a vertex of a polygon. Use your own vertex class instead of this

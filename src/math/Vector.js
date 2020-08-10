@@ -1,4 +1,4 @@
-import { IsFloat } from 'utils';
+import { IsFloat } from './utils/index';
 
 /** Class Vector
  * Represents a 3D vector with X, Y, Z coordinates.

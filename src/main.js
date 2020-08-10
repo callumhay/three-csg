@@ -2,7 +2,7 @@
  * See the LICENSE file for license.
  */
 
-import { exportThreeGeometry, runOperation } from 'utils';
+import { exportThreeGeometry, runOperation } from './utils/index';
 
 // TODO: FIXME: KILL THIS!!!! Tag factory: we can request a unique tag through _CSG.getTag()
 window.staticTag = 1;

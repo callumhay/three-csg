@@ -1,5 +1,5 @@
-import { Tree, Properties } from 'core';
-import { Vector } from 'math';
+import { Tree, Properties } from './core/index';
+import { Vector } from './math/index';
 
 /** Class CSG
  * Holds a binary space partition tree representing a 3D solid. Two solids can

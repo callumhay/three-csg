@@ -1,5 +1,5 @@
-import { Vector, Plane } from 'math';
-import { CONSTANTS } from 'utils';
+import { Vector, Plane } from './math/index';
+import { CONSTANTS } from './utils/index';
 
 /** Class Polygon
  * Represents a convex polygon. The vertices used to initialize a polygon must
