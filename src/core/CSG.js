@@ -1,5 +1,5 @@
-import { Tree } from './Tree';
-import { Properties } from './Properties';
+import Tree from './Tree';
+import Properties from './Properties';
 import { Vector } from '../math/index';
 
 /** Class CSG
