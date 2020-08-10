@@ -21,7 +21,7 @@ function splitPolygonByPlane(plane, polygon) {
     let planenormal = plane.normal;
     let vertices = polygon.vertices;
     let numvertices = vertices.length;
-    if (polygon.plane.equals(plane)) {
+    if (polygon.plane.equals(plane) || planenormal.x === NaN || planenormal.y === NaN || planenormal.z === NaN || plane.w === NaN) {
         result.type = 0;
     } else {
         let thisw = plane.w;
