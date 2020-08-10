@@ -1,5 +1,5 @@
-import { CONSTANTS } from './utils/index';
-import { Vertex, Polygon } from './math/index';
+import { CONSTANTS } from '../utils/index';
+import { Vertex, Polygon } from '../math/index';
 
 // Returns object:
 // .type:

@@ -1,6 +1,6 @@
 import * as THREE from 'three';
-import { Vector, Vertex, Polygon } from './math/index';
-import { CSG as _CSG } from './core/index';
+import { Vector, Vertex, Polygon } from '../math/index';
+import { CSG as _CSG } from '../core/index';
 
 /*
  * interface converters
