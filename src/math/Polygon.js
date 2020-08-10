@@ -1,4 +1,4 @@
-import { Vector, Plane } from './math/index';
+import { Vector, Plane } from './index';
 import { CONSTANTS } from '../utils/index';
 
 /** Class Polygon
